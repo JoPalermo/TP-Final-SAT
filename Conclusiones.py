@@ -7,4 +7,4 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Cargamos el dataset:
-Trabajos_LinkedIn = pd.read_csv()
+Trabajos_LinkedIn = pd.read_csv('C:/Users/Usuario/Documents/ITBA/SAT - 81.75/TP - Final - SAT/Trabajos_LinkedIn_Final.csv')

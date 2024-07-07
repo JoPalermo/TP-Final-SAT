@@ -80,6 +80,4 @@ print("\n--- Data Set Final ---")
 print(Trabajos_LinkedIn.head(5))
 
 # Guardamos el DataSet Final en formato csv:
-
-
-
+Trabajos_LinkedIn.to_csv('C:/Users/Usuario/Documents/ITBA/SAT - 81.75/TP - Final - SAT/Trabajos_LinkedIn_Final.csv', index=False)
