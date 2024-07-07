@@ -27,8 +27,18 @@ plt.axis('off')
 plt.tight_layout()
 plt.show()
 
+# Que tipo de trabajo es mas comun?
+Tipo_Trabajo = Trabajos_LinkedIn['formatted_work_type'].value_counts()/Trabajos_LinkedIn['formatted_work_type'].value_counts().sum()*100
+plt.figure(figsize=(14, 6))
+Tipo_Trabajo.plot(kind='bar', color='olive')
+plt.title('Tipo de trabajo mas comun [%]', fontsize=20)
+plt.xlabel('Tipo de trabajo')
+plt.ylabel('% Sobre el total')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
 
-
+print(Tipo_Trabajo)
 
 
 

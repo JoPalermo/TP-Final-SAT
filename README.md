@@ -56,6 +56,28 @@ Una vez agregada la información proveniente de los otros Data Sets, nos queda u
 
 Información de interes:
 
-1. Cual es el trabajo q
+1. Cual es el trabajo que mas se ofrecio?
 
+Como podemos observar el la foto "Pregunta 1", el top de trabajos mas ofrecidos son:
+ - Regisered Nurse.
+ - Project Manager.
+ - Director.
+ - Lead.
+ - Sales Associate.
+ - Customer Service.
 
+2. Que tipo de trabajo es mas comun encontrar publicado?
+
+Como podemos observar en el grafico "Pregunta 2_a", el prabajo que mas se ofrece es en la modalidad de Full Time alcanzando un valor de casi 100.000 puestos ofrecidos.
+Para que los valores sean un poco mas claros, se usa el grafico "Pregunta 2_b" donde se puede ver el porcentaje de participacion sobre el total de cada tipo de trabajo. Los resultados son:
+ - Full-time     79.78%
+ - Contract       9.78%
+ - Part-time      7.82%
+ - Temporary      0.96%
+ - Internship     0.79%
+ - Volunteer      0.45%
+ - Other          0.39%
+
+Podemos ver que la diferencia es bastante grande entre los puestos "Full Time" (79.78%) y el resto de peustos.
+
+3. 
