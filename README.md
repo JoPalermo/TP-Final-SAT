@@ -40,9 +40,16 @@ Una vez que sé la cantidad de columnas, quiero ver que contiene cada columna, p
     28. compensation_type
 
 El paso siguiente es ver si la información que contiene cada columna tiene errores o si faltan datos.
-Lo que hago es fijarse mi hay valores faltantes y en caso de que haya, los remplazo por la palabra "Unknown". Podemos ver que en las columnas en las que falta más información es en aquellas relacionadas con el salario ofrecido.
+Lo que hago es fijarse mi hay valores faltantes y en caso de que haya, los remplazo por la palabra "Unknown". 
+Podemos ver que en las columnas en las que falta más información es en aquellas relacionadas con el salario ofrecido.
 
-Otra 
+Tambien obtenemos los estadisticos principales del DataSet. Podemos obtener por ejemplo el valor que mas se repite en cada una de las columnas, o el salario promedio ofrecido.
+
+Otra información importante es que al ver la cantidad de valores unicos que tienen las columnas, la columna que se llama "job_id" tiene la misma cantidad de valores unicos que la cantidad de filas de la columna. Esto quiere decir que estan bien numerados los "id" de los trabajos, porque no se deberian repetir estos codigos de referencia.
+
+Una vez ordenado el Data Set base, le vamos a sumar información proveniente de otros Data Sets utilizando el "id" del trabajo ofrecido para linkear la información. Le sumamos información como los beneficios extra del puesto de trabajo, datos adicionales de la empresa que ofrece el trebajo y las habilidades necesarias para postularse al puesto.
+
+Una ves agregada la información proveniente de los otros Data Sets, nos queda una tabal con 42 columnas, de las cuales muchas nos traen información poco útil. Por esto es que se eliminan varias de estas columnas, quedando finalmente tan solo X columnas.
 
 
 
