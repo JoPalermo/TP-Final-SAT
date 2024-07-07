@@ -1,3 +1,6 @@
+# La idea de esta seccion es acomodar el Data Set, con la información que considero relevante para luego hacer un analisis de los mismos.
+# Por esto es que luego de procesar el Data Set, lo guardo en un nuevo archivo csv, para luego hacer el analisis en un nuevo archivo.
+
 # Importamos las librerias necesarias:
 import numpy as np
 import pandas as pd
@@ -64,12 +67,19 @@ Empresa = Empresa.merge(Empleados, on="company_id", how="left")
 Trabajos_LinkedIn = Trabajos_LinkedIn.merge(Empresa, on="company_id", how="left") # Agrago la información de la Empresa al DataSet
 
 # Hacemos un preview de como quedo el DataSet:
+print("\n--- Data Set con toda la información ---")
 print(Trabajos_LinkedIn.head(5))
 
-# Obtenemos las columnas del DataSet:
+# Vemos las columnas y nos quedamos con las que nos interesan:
 columnas = Trabajos_LinkedIn.columns
+print("\n--- Columnas ---")
 print(columnas)
+Col = ['title','name','description_x','formatted_work_type','location','original_listed_time','application_type','sponsored','description_y','company_size','industry','max_salary','pay_period']
+Trabajos_LinkedIn = Trabajos_LinkedIn[Col]
+print("\n--- Data Set Final ---")
+print(Trabajos_LinkedIn.head(5))
 
-# Me quedo con las columnas de interes:
+# Guardamos el DataSet Final en formato csv:
+
 
 
