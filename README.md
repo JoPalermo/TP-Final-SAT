@@ -59,7 +59,7 @@ Información de interes:
 1. Cual es el trabajo que mas se ofrecio?
 
 Como podemos observar el la foto "Pregunta 1", el top de trabajos mas ofrecidos son:
- - Regisered Nurse.
+ - Registered Nurse.
  - Project Manager.
  - Director.
  - Lead.
@@ -80,4 +80,42 @@ Para que los valores sean un poco mas claros, se usa el grafico "Pregunta 2_b" d
 
 Podemos ver que la diferencia es bastante grande entre los puestos "Full Time" (79.78%) y el resto de peustos.
 
-3. 
+3. Que "Tamaño" tienen las empresas que buscan empleados en LinkedIn?
+
+Para esto se usa un indicador dentro de la columna "company_size", el cual enumera las empresas con un numero del 1 al 7, dependiendo del tamaño de las mismas, siendo 7 el mas grande.
+Como podemos ver el el grafico "Pregunta 3" hay mas empresas de tipo 7 ofreciendo empleo, lo cual tiene sentido ya que al ser empresas mas grandes, tienen mas puestos por ocupar. Las empresas de tamaño 7 representan el 36.5% de todo el trabajo ofrecido en LinkedIn.
+
+4. Cuales son las empresas que mas trabajos ofrecen en LinkedIn?
+
+Como podemos ver en el grafico "Pregunta 4", en el top 5 de empresas que mas publicaciones de empleo tienen, estan:
+ - 1108 publicaciones de empleo de --> Liberty Healthcare and Rehabilitation Services    
+ - 1003 publicacinoes de empleo de --> The Job Network                                   
+ - 604 publicaciones de empleo de  --> J. Galt
+ - 529 publicaciones de empleo de  --> TEKsystems
+ - 527 publicaciones de empleo de  --> Lowe's Companies, Inc.
+
+El top 1 condice con los resultados de la pregunta 1 ya que es una empresa relacinoada con la salud y el trabajo que mas se solicita es el de "Registered Nurse".
+
+5. Se puede trabajar remoto?
+
+Como se puede ver en el gráfico "Pregunta 5", no tenemos la información suficiente como para responder por completo esta pregunta. En un principio, el 12.3% de las publicaciones permiten el trabajo remoto. Pero no tenemos información del 87.7% restante. Se puede asumir que si no esta aclarado en la publicación del empleo, esto quiere decir que no esta permitido el trabajo remoto. Pero de todas formas esto no es mas que un supuesto, y haría falta mas información para poder responder por completo la pregunta.
+
+6. Que nivel de experiencia se requiere?
+
+Como podemos ver el el grafico "Pregunta 6", hay poca oferta de empleos de nivel "Director", "Internship" y "Executive". Se ofrecen mas empledo en niveles Senior Mid o como Entry level.
+La distribucion es:
+ - Mid-Senior level    33.49%
+ - Entry level         29.63%
+ - Unknown             23.74%
+ - Associate            7.93%
+ - Director             3.02%
+ - Internship           1.16%
+ - Executive            0.98%
+
+7. Que habilidades se requieren?
+
+
+
+
+
+

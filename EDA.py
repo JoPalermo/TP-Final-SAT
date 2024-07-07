@@ -74,7 +74,7 @@ print(Trabajos_LinkedIn.head(5))
 columnas = Trabajos_LinkedIn.columns
 print("\n--- Columnas ---")
 print(columnas)
-Col = ['title','name','description_x','formatted_work_type','location','original_listed_time','application_type','sponsored','description_y','company_size','industry','max_salary','pay_period']
+Col = ['title','name','description_x','formatted_work_type','location','original_listed_time','application_type','sponsored','description_y','company_size','industry','max_salary','pay_period','remote_allowed','formatted_experience_level', 'skills_desc']
 Trabajos_LinkedIn = Trabajos_LinkedIn[Col]
 print("\n--- Data Set Final ---")
 print(Trabajos_LinkedIn.head(5))

@@ -38,11 +38,50 @@ plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
 
-print(Tipo_Trabajo)
+# Que tamaño tienen las empresas que ofrecen trabajo?
+Tamaño_empresa = Trabajos_LinkedIn['company_size'].value_counts()/Trabajos_LinkedIn['company_size'].value_counts().sum()*100
+plt.figure(figsize=(12, 9))
+plt.pie(Tamaño_empresa, labels=Tamaño_empresa.index, autopct='%1.1f%%', colors=[ 'green', 'yellow', 'orange','red', 'pink', 'purple', 'blue'])
+plt.title('Tamaño de las empresas que ofrecen trabajo [%]', fontsize=20)
+plt.axis('equal')
+plt.tight_layout()
+plt.show()
+
+# Cuales son las empresas que mas trabajo ofrecen?
+Empresas_mas_trabajo = Trabajos_LinkedIn['name'].value_counts().head(5)
+plt.figure(figsize=(10, 6))
+Empresas_mas_trabajo.plot(kind='bar', color='purple')
+plt.title('5 empresas que mas trabajo ofrecen', fontsize=20)
+plt.xlabel('Nombre Empresa')
+plt.ylabel('Cantidad de trabajos publicados')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
+
+# Se puede trabajar remoto?
+Remoto = Trabajos_LinkedIn['remote_allowed'].value_counts()/Trabajos_LinkedIn['remote_allowed'].value_counts().sum()*100
+plt.figure(figsize=(10, 8))
+Remoto.plot(kind='pie', autopct='%1.1f%%', startangle=200, colors=['grey', 'brown'])
+plt.title('Remoto permitido [%]', fontsize=20)
+plt.ylabel('')
+plt.show()
+
+# Que nivel de experiencia se requiere?
+#formatted_experience_level
+Experiencia = Trabajos_LinkedIn['formatted_experience_level'].value_counts()/Trabajos_LinkedIn['formatted_experience_level'].value_counts().sum()*100
+plt.figure(figsize=(10, 6))
+Experiencia.plot(kind='bar', color='orange')
+plt.title('Experiencia Requerida', fontsize=20)
+plt.xlabel('Tipo de Experiencia')
+plt.ylabel('Procentaje del total de trabajos publicados')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
+print(Experiencia)
 
 
-
-
+# Que habilidades se requieren?
+#skills_desc
 
 
 
