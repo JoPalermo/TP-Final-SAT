@@ -67,7 +67,6 @@ plt.ylabel('')
 plt.show()
 
 # Que nivel de experiencia se requiere?
-#formatted_experience_level
 Experiencia = Trabajos_LinkedIn['formatted_experience_level'].value_counts()/Trabajos_LinkedIn['formatted_experience_level'].value_counts().sum()*100
 plt.figure(figsize=(10, 6))
 Experiencia.plot(kind='bar', color='orange')
@@ -79,9 +78,14 @@ plt.tight_layout()
 plt.show()
 print(Experiencia)
 
-
 # Que habilidades se requieren?
-#skills_desc
-
-
-
+Habilidades = Trabajos_LinkedIn['skill_abr'].value_counts().head(10)
+plt.figure(figsize=(10, 6))
+Habilidades.plot(kind='bar', color='red')
+plt.title('Habilidades requeridas', fontsize=20)
+plt.xlabel('Habilidad')
+plt.ylabel('Procentaje del total de trabajos publicados')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
+print(Habilidades)

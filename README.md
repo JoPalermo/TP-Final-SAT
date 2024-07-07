@@ -114,8 +114,10 @@ La distribucion es:
 
 7. Que habilidades se requieren?
 
-
-
-
-
-
+Como podemos ver en el gráfico "Pregunta 7", las habilidades mas solicitadas tienen que ver con la salud. luego hay muchos puestos que solicitan habilidades relacionadas con MGMT, Sales y TI.
+El top 5 de habilidades demandadas son:
+ 1. HCPR --> 15989 publicaciones.
+ 2. MGMT, MNFC --> 15763 publicaciones.
+ 3. OTHR --> 10108 publicaciones.
+ 4. SALE, BD --> 9208 publicaciones.
+ 5. IT --> 8974 publicaciones.
