@@ -121,3 +121,9 @@ El top 5 de habilidades demandadas son:
  3. OTHR --> 10108 publicaciones.
  4. SALE, BD --> 9208 publicaciones.
  5. IT --> 8974 publicaciones.
+
+-------------------------------------------------------------------
+
+Coclusión:
+
+En conclusión, en base a los datos obtenidos del Data Set, podemos afirmar que hoy en día la oferta laboral se ve dominada por los trabajos de tiempo full-time, de nivel "entry level" y "mid-senior level", en empresas de gran tamaño relacinoadas en su mayoria a la industria de la salud, donde se exigen habilidades especificas para aplicar a los puestos.
